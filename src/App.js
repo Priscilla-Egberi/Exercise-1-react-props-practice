@@ -5,7 +5,8 @@ import Contact from "./contact"
 
 export default function App() {
   return (
-    <div>
+   <section>
+        <div>
       <h1 className="heading">My Contacts</h1>
       <div className="card">
         <div className="top">
@@ -22,5 +23,6 @@ export default function App() {
       </div>
     </div>
     <Card />
+   </section>
   );
 }
